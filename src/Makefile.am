@@ -20,7 +20,7 @@ version.c: ${srcdir}/version.c
 endif
 
 if LINUX
-EXTRA_PROGRAMS += sptps_speed
+sbin_PROGRAMS += sptps_speed
 endif
 
 ed25519_SOURCES = \
